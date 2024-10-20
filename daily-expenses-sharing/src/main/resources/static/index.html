@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Expenses Sharing Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Daily Expenses Sharing</h1>
+    </header>
+    
+    <main>
+        <section id="user-section">
+            <h2>Create User</h2>
+            <form id="create-user-form">
+                <input type="text" id="user-name" placeholder="Name" required>
+                <input type="email" id="user-email" placeholder="Email" required>
+                <input type="tel" id="user-mobile" placeholder="Mobile Number" required>
+                <button type="submit">Create User</button>
+            </form>
+        </section>
+        
+        <section id="expense-section">
+            <h2>Add Expense</h2>
+            <form id="add-expense-form">
+                <input type="text" id="expense-description" placeholder="Expense Description" required>
+                <input type="number" id="expense-amount" placeholder="Amount" required>
+                <button type="submit">Add Expense</button>
+            </form>
+        </section>
+        
+        <section id="balance-sheet-section">
+            <h2>Balance Sheet</h2>
+            <button id="download-balance-sheet">Download Balance Sheet</button>
+            <div id="balance-sheet"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Daily Expenses Sharing</p>
+    </footer>
+</body>
+</html>
