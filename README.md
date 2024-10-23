@@ -59,14 +59,3 @@ The **Daily Expenses Sharing Application** is a web-based application that allow
 ## Contribution
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you have suggestions or improvements.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-### How to Use This README
-
-1. **Update Links**: Ensure the repository link and any other URLs are correct.
-2. **License**: If you have a specific license, include it in a separate `LICENSE` file in your repository.
-3. **Additional Sections**: You can add more sections if necessary, such as troubleshooting or known issues.
-
-Once you have made the necessary adjustments, you can create the `README.md` file in your project's root directory and push it to your GitHub repository. This will give visitors a clear understanding of your project and how to use it!
